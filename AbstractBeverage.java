@@ -1,21 +1,17 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package test;
+package Energy;
 
 /**
  *
- * @author NIKHILA CHOWDARY VAITLA
+ * @author S545554
  */
-public abstract class AbstractBeverage {
+public  abstract class AbstractBeverage {
+     protected String name = "no name";
 
-    /**
-     * All have a name. Class variable name is not private, but
-     * protected - only subclasses can use it.
-     */
-    protected String name = "no name";
-    
 
 
     /**
@@ -45,3 +41,7 @@ public abstract class AbstractBeverage {
 
 
 }
+
+
+
+    

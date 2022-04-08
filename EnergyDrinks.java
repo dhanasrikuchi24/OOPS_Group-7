@@ -1,17 +1,22 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package test;
+package Energy;
 
 /**
  *
- * @author NIKHILA CHOWDARY VAITLA
+ * @author S545554
  */
-public class EnergyDrinks extends AbstractBeverage{
+public class EnergyDrinks extends AbstractBeverage {
     private String drinkName;
     private String originCountry;
     private String companyName;
+
+    public EnergyDrinks(String name) {
+        super(name);
+    }
 
     public EnergyDrinks(String drinkName, String originCountry, String companyName, String name) {
         super(name);
@@ -44,16 +49,19 @@ public class EnergyDrinks extends AbstractBeverage{
         this.companyName = companyName;
     }
 
-    
+
     @Override
     public String toString() {
         return drinkName + " " + originCountry + " " + companyName;
     }
-    
+
     @Override
     public String getDescription() {
         return "a jar of energy drink for instant energy.";
     }
-  
-    
+
+
 }
+    
+    
+
